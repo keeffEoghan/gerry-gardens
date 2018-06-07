@@ -1,0 +1,48 @@
+@import '../utils/spacing';
+@import '../utils/animation';
+
+header {
+    transition: transform $time-box-fade $ease-long-out;
+
+    h1 {
+        transition: inherit;
+        background-image: url('/dist/img/logo.png');
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    a {
+        transition: inherit;
+        transition-property: opacity;
+        opacity: 1;
+    }
+
+    &.small {
+        transform: translateX(calc(100% - #{ $space-logo-size }));
+
+        transition-timing-function: $ease-long-in;
+        transition-delay: $time-fade;
+
+        h1 {
+            transform: translateX(calc(-100% + #{ $space-logo-size }));
+        }
+
+        a {
+            opacity: 0;
+        }
+    }
+
+    &:hover {
+        transition-delay: 0ms;
+
+        &,
+        h1 {
+            transform: none;
+        }
+
+        a {
+            opacity: 1;
+        }
+    }
+}

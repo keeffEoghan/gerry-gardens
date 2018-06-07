@@ -1,0 +1,165 @@
+/* Base styles - kept as light as possible for quick load time */
+
+@import '../vendor/reset';
+
+@import './utils/typography';
+@import './utils/colors';
+@import './utils/spacing';
+
+/* General styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    min-height: 100%;
+    color: $color-dark;
+}
+
+body {
+    font-family: $font-base;
+    font-weight: 300;
+    line-height: $space-ratio-mid;
+    margin: 0;
+
+    @media all and (min-width: $space-screen-small) {
+        font-size: 1.15em;
+    }
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+    font-variant: small-caps;
+}
+
+h1,
+h4 {
+    font-size: 1.3em;
+}
+
+h2,
+h5 {
+    font-size: 1.1em;
+}
+
+
+p,
+ul,
+ol {
+    padding: spacing($space-still-small, $space-ratio-mid);
+    max-width: $line-width;
+}
+
+ul,
+ol {
+    padding-left: $space-still-small * 2;
+}
+
+ul {
+    list-style: disc outside none;
+}
+
+ol {
+    list-style: decimal outside none;
+}
+
+img,
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.js {
+    img {
+        opacity: 0;
+
+        &.loaded {
+            opacity: 1;
+        }
+    }
+}
+
+a {
+    text-decoration: inherit;
+    padding-bottom: 0.2em;
+
+    @include color-link-states();
+
+    border-bottom: 1px dashed;
+
+    /* Internal links */
+    &:not([target]),
+    &[target="_self"] {
+        border-bottom-style: solid;
+    }
+
+    /* External links and applications. */
+    &[href^="mailto:"],
+    &[href^="tel:"] {
+        border-bottom-style: dashed;
+    }
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 0.8em;
+    opacity: 0.75;
+}
+
+
+footer {
+    display: inline-block;
+    padding: spacing($space-still-small, $space-ratio-large);
+    margin: $space-still-small-plus 0;
+
+    background-color: $color-dark;
+    color: $color-light;
+
+    // @todo Work out how this will be placed alongside the varying/animating contents of <main>
+    a {
+        @include color-link-states($color-light);
+    }
+
+    p {
+        display: inline-block;
+        padding: 0;
+    }
+}
+
+
+/* Child modules */
+
+@import './server-message/base';
+@import './logo/base';
+@import './home/base';
+@import './project/base';
+@import './tendrils/base';

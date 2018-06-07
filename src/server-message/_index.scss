@@ -1,0 +1,11 @@
+@import '../utils/animation';
+
+.server-message {
+    transition: opacity 300ms $ease-long-in;
+
+    &.hide {
+        opacity: 0;
+
+        transition-timing-function: $ease-long-out;
+    }
+}

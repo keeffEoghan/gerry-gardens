@@ -1,0 +1,32 @@
+$font-base: "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        "Lucida Grande",
+        sans-serif;
+
+$line-width: 33em;
+
+@function headings($from:1, $to:6) {
+    @if $from == $to {
+        @return 'h#{$from}';
+    }
+    @else {
+        @return 'h#{$from},' + headings($from+1, $to);
+    }
+}
+
+@mixin color-link-states($color: $color-default) {
+    color: $color;
+    border-color: rgba($color, 0.3);
+
+    &:hover,
+    &:focus {
+        border-color: $color;
+    }
+
+    &:active {
+        border-color: rgba($color, 0.7);
+    }
+}

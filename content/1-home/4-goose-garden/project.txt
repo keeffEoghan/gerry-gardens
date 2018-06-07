@@ -1,0 +1,36 @@
+Title: Goose Garden
+
+----
+
+Categories: garden
+
+----
+
+Date: 2016-01-01
+
+----
+
+Preview-image: hedgehog-edit.jpg
+
+----
+
+Accent-hue: 150
+
+----
+
+Sections: 
+
+- 
+  heading: Goose
+  figure: goose-deck-edit-compressor.jpg
+  text: This garden has _geese_ in it.
+- 
+  heading: Summary
+  figure: hedgehog-edit.jpg
+  text: |
+    Things we covered:
+    
+    * Created a new article
+    * Wrote some text in **Markdown**
+    * _Edited_ and uploaded some images
+    * **_Put it all together_**

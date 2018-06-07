@@ -1,0 +1,12 @@
+@import '../utils/animation';
+
+.project-link {
+    transition: background-color $time-background-fade-in $ease-long-in;
+
+    &:hover,
+    &:focus,
+    &:active {
+        transition-duration: $time-background-fade-out;
+        transition-timing-function: $ease-long-out;
+    }
+}

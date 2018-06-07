@@ -1,0 +1,5 @@
+Title: Error
+
+----
+
+Text: Something went wrong... pretend you didn't see that.

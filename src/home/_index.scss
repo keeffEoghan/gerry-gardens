@@ -1,0 +1,39 @@
+@import '../utils/animation';
+@import '../utils/spacing';
+
+@import '../project-link/index';
+
+#home {
+    /* Fade in */
+    transition: transform $time-view-fade $ease-long-out,
+        opacity $time-box-fade $ease-long-in;
+
+    &.hide {
+        transform: translateZ(1em);
+
+        /* Fade out */
+        transition: transform $time-view-fade $ease-long-in,
+            opacity $time-box-fade $ease-long-out $time-view-fade;
+
+        &,
+        section,
+        .project-title {
+            opacity: 0;
+        }
+    }
+
+
+    .map-static {
+        display: inline-block;
+        max-width: 100%;
+        padding: $space-still-small 0;
+    }
+
+    section,
+    .project-title {
+        left: 0;
+        transition: opacity $time-view-fade $ease-long-out,
+            left $time-long-fade $ease-lazy-in,
+            transform $time-long-fade $ease-lazy-in;
+    }
+}

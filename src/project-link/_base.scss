@@ -1,0 +1,35 @@
+@import '../utils/colors';
+@import '../utils/spacing';
+
+.project-title {
+    font-size: 1.1em;
+    background-image: $image-generic;
+    background-position: center;
+    background-size: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0;
+    max-height: nth($spaces-project-thumbnail, 1);
+    max-width: nth($spaces-project-thumbnail, 2);
+}
+
+.project-link {
+    display: block;
+    text-align: center;
+    padding: $spaces-project-head-pad;
+    border-width: 0;
+
+    color: $color-light;
+    background-color: rgba($color-default, 0.25);
+    text-shadow: 0 0 0.5em $color-default;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-default;
+    }
+}

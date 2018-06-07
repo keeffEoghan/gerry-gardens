@@ -1,0 +1,31 @@
+Title: Sea Road Garden
+
+----
+
+Categories: 
+
+----
+
+Date: 2016-03-25
+
+----
+
+Preview-image: 
+
+----
+
+Accent-hue: 
+
+----
+
+Sections: 
+
+- 
+  heading:
+  figure:
+  text: >
+    This very small garden was heavily
+    shaded, facing north, at the rear of a
+    two storey holiday house, with a fall to
+    a stream and trees, just beyond the site
+    boundary.

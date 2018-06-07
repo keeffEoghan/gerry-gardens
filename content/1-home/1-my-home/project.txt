@@ -1,0 +1,28 @@
+Title: My Home
+
+----
+
+Categories: project
+
+----
+
+Date: 2015-12-30
+
+----
+
+Preview-image: 
+
+----
+
+Accent-hue: 311
+
+----
+
+Sections: 
+
+- 
+  heading: 'Home - the lifelong project'
+  figure:
+  text: |
+    I built a house from timber in the middle of an empty field in **Ballymoney**, in North Wexford. The first section, built in 1982. was constructed from Scandinavian softwood  cut to a horizontal weatherboard profile.
+    Since then, a conservatory and four bedrooms have been added.

@@ -1,0 +1,30 @@
+Title: Juliana's Garden
+
+----
+
+Categories: 
+
+----
+
+Date: 2016-03-25
+
+----
+
+Preview-image: 
+
+----
+
+Accent-hue: 
+
+----
+
+Sections: 
+
+- 
+  heading:
+  figure:
+  text: |
+    This garden was first built and planted in 2009.
+    The front garden is  South facing onto a busy road looking out to sea over green fields.
+    The challange was to make the most of the view while screening the garden from the road without losing sunlight, as the garden to the rear of the house got very little sun.
+    A secure play area was required but with access for cars without using a gate and off road parking.

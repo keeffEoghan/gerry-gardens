@@ -1,0 +1,55 @@
+/* Full styles - anything non-critical */
+
+@import './utils/spacing';
+@import './utils/animation';
+
+main {
+    perspective: 10em;
+}
+
+.js {
+    article {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-height: 100%;
+
+        &.hide {
+            pointer-events: none;
+        }
+    }
+
+    footer {
+        position: absolute;
+        top: 100%;
+        z-index: -1;
+    }
+}
+
+a {
+    transition: 1000ms $ease-long-out;
+    transition-property: border;
+
+    &:hover,
+    &:focus {
+        transition-duration: 100ms;
+    }
+}
+
+img {
+    transition: opacity $time-box-fade $ease-long-in;
+}
+
+.now {
+    transition: 0ms 0ms !important;
+}
+
+
+// Child modules
+
+@import './server-message/index';
+@import './logo/index';
+@import './home/index';
+@import './project/index';
+@import './tendrils/index';

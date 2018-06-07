@@ -1,0 +1,85 @@
+/**
+ * A convenience to get width and height spacing in a ratio.
+ * @param {Length} $width(1) The width value.
+ * @param {Number} $ratio(1) The ratio of width/height.
+ * @return {List.<Length, Length>} The spacing, width and height.
+ */
+@function spacing($height: 1, $ratio: 1) {
+    @return $height ($height * $ratio);
+}
+
+
+/**
+ * Spacing ratios - `w/h`, so multiply `h` by `ratio` to get `w`.
+ *
+ * @type {Number}
+ */
+
+// Golden ratio - because tweaking by hand ended up close to here, and why not?
+$space-ratio-mid: 1.61803399;
+
+// Again, this system is arbitrary, but ended up close to an exponential relationship, so just going with it.
+$space-ratio-large: $space-ratio-mid * $space-ratio-mid;
+
+// This naming convention seems a little "1984".
+$space-ratio-large-plus: $space-ratio-large * $space-ratio-mid;
+
+
+/**
+ * Some consistent spacing heights.
+ *
+ * @type {Length}
+ */
+$space-flex-mid: 2%;
+$space-flex-large: 4%;
+$space-flex-large-plus: 6%;
+
+$space-still-small-plus: 0.55em;
+$space-still-small: 0.65em;
+$space-still-mid: 1.3em;
+$space-still-large: 2.6em;
+
+$space-logo-size: 2.9em;
+$space-logo-around: 4.8em;
+
+$space-screen-small: 500px;
+$space-screen-mid: 650px;
+$space-screen-logo-side: 1000px;
+
+
+/**
+ * Some [height width] sizes.
+ *
+ * @type {Array.<Length, Length>}
+ */
+
+$spaces-project-thumbnail: 100px 500px;
+$spaces-logo-head-pad: spacing($space-still-small, $space-ratio-large);
+$spaces-project-head-pad: spacing($space-still-mid, $space-ratio-large);
+
+
+$space-max: 100em;
+
+/**
+ * Switch from the given flexible to a static length, at the given
+ * still breakpoint.
+ * @param {Percentage} $flex The flexible percentage to switch from.
+ * @param {Length} $still-breakpoint The still breakpoint at which to switch.
+ * @return {Length} The still length (whatever the percentage of the
+ *                  breakpoint is in fixed units).
+ */
+@function flex-to-still($flex, $still-breakpoint) {
+    @return $flex / 100% * $still-breakpoint;
+}
+
+/**
+ * Switch from the given still to a flexible length, at the given
+ * still breakpoint.
+ * @param {Length} $still The still length to switch from.
+ * @param {Length} $still-breakpoint The still breakpoint at which to switch.
+ * @return {Percentage} The flexible percentage (whatever the percentage of
+ *                      the breakpoint is).
+ */
+@function still-to-flex($still, $still-breakpoint) {
+    @return $still / $still-breakpoint * 100%;
+}

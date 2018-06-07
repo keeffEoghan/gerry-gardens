@@ -1,0 +1,27 @@
+/**
+ * Easing curves.
+ *
+ * @type {BezierCurve}
+ */
+$ease-long-in: cubic-bezier(1, 0, 0.75, 1);
+$ease-long-out: cubic-bezier(0.25, 0.1, 0, 1);
+
+$ease-lazy-in: cubic-bezier(0.8, 0, 0.6, 1);
+$ease-lazy-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+/**
+ * Animation times (durations, delays, etc.).
+ *
+ * @type {Time}
+ */
+$time-long-fade: 800ms;
+
+$time-view-fade: 600ms;
+$time-box-fade: $time-view-fade * 0.5;
+
+$time-background-fade-in: 800ms;
+$time-background-fade-out: 400ms;
+
+$time-fade: 250ms;
+$time-quick: 150ms;

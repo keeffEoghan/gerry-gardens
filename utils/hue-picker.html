@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: "HelveticaNeue-Light",
+                "Helvetica Neue Light",
+                "Helvetica Neue",
+                Helvetica,
+                Arial,
+                "Lucida Grande",
+                sans-serif;
+            font-weight: 300;
+            line-height: 2;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            cursor: ew-resize;
+        }
+
+        #pick {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+
+        #copy {
+            font-size: 2em;
+            background: transparent;
+            color: #fff;
+            border: 0.2em solid #fff;
+            padding: 0.25em 0.5em;
+        }
+
+        label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+    <body>
+        <input id="pick" type="range" min="0" max="359" value="0"/>
+        <label>
+            <input id="copy" type="number" min="0" max="359" value="0"/>
+            <br/>
+            <br/>
+            move the background colour (left-right), or type a number above (0-359)
+        </label>
+
+        <script>
+            var pick = document.getElementById('pick');
+            var copy = document.getElementById('copy');
+
+            var min = parseInt(pick.min, 10);
+            var max = parseInt(pick.max, 10);
+
+            function clamp(v) {
+                return Math.min(Math.max(min, v), max);
+            }
+
+            function update(v) {
+                var hue = pick.value = copy.value = clamp(parseInt(v, 10));
+
+                document.body.style.backgroundColor = 'hsl('+hue+', 90%, 40%)';
+            }
+
+            pick.addEventListener('change', function() {
+                    update(pick.value);
+                });
+
+            copy.addEventListener('change', function() {
+                    update(copy.value);
+                });
+
+            update(0);
+        </script>
+    </body>
+</html>

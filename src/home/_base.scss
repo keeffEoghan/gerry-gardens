@@ -1,0 +1,64 @@
+@import '../utils/spacing';
+@import '../utils/colors';
+
+@import '../project-link/base';
+
+#home {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    max-width: $space-max;
+    margin: auto;
+
+    padding: $space-logo-around
+        ($space-still-mid * $space-ratio-mid);
+
+    @media all and (min-width: $space-screen-small) {
+        padding: $space-logo-around $space-still-mid * $space-ratio-large;
+    }
+
+
+    .contact {
+        white-space: nowrap;
+    }
+
+    .open-map {
+        display: block;
+        border: none;
+        text-align: center;
+    }
+
+    .map-static {
+        display: none;
+    }
+
+    section,
+    .project-title {
+        position: relative;
+        margin: $space-still-mid 0;
+    }
+
+    section {
+        border: 1px solid rgba($color-dark, 0.3);
+        background: rgba($color-light, 0.9);
+        padding: spacing($space-still-mid, $space-ratio-mid);
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+
+        @media all and (min-width: $space-screen-mid) {
+            padding: spacing($space-still-large, $space-ratio-mid);
+        }
+    }
+
+    .project-title {
+        min-width: 40%;
+
+        @media all and (min-width: nth($spaces-project-thumbnail, 2) / 0.4) {
+            min-width: nth($spaces-project-thumbnail, 2);
+        }
+    }
+}

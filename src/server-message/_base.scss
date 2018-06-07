@@ -1,0 +1,10 @@
+/* Errors and generic messages from the server. */
+
+@import './utils/spacing';
+
+.server-message {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: ($space-still-large * 2) 0;
+}

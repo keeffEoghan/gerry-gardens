@@ -1,0 +1,154 @@
+@import '../utils/colors';
+@import '../utils/spacing';
+@import '../utils/typography';
+
+@import '../project-link/base';
+
+.project {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+
+    overflow: hidden;
+    max-width: $space-max;
+    margin: auto;
+
+    color: $color-dark;
+
+    @media all and (max-width: $space-screen-logo-side) {
+        padding-top: $space-logo-around;
+    }
+
+    &.dark {
+        color: $color-light;
+        border-color: $color-light;
+        background-color: $color-dark;
+    }
+
+
+    .project-title.current {
+        flex: 0 0 100%;
+        min-width: none;
+        max-width: none;
+        background-image: none;
+    }
+
+    .project-title-text {
+        display: inline-block;
+        padding: $spaces-project-head-pad;
+        background-color: $color-default;
+        color: $color-light;
+        max-width: $line-width;
+    }
+
+
+    dl {
+        flex: 0 0 100%;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0 ($space-still-large * $space-ratio-mid);
+        margin: $space-still-small 0 $space-flex-large;
+        color: $color-default;
+    }
+
+    dt,
+    dd {
+        float: left;
+    }
+
+    dt {
+        font-size: 0;
+        visibility: hidden;
+
+        & + dd::before {
+            content: '\a0/\a0';
+        }
+    }
+
+    dd {
+        font-size: 0.8em;
+
+        & + dd::before {
+            content: '\a0\b7\a0';
+        }
+    }
+
+
+    section {
+        flex: 0 1 auto;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        margin: $space-flex-mid 0;
+
+        padding: spacing($space-still-small, $space-ratio-mid);
+
+        @media all and (min-width: $space-screen-small) {
+            padding: spacing($space-still-mid, $space-ratio-mid);
+        }
+    }
+
+
+    /* Section children */
+
+    .section-heading {
+        flex: 1 0 100%;
+
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 0.2em 0;
+        margin: $space-still-mid 0;
+        color: $color-default;
+        border-bottom: 0.1em solid $color-default;
+    }
+
+    figure,
+    .text {
+        flex: 0 1 auto;
+    }
+
+    figure {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .text {
+        padding: 0 ($space-still-small * $space-ratio-mid);
+
+        #{headings()} {
+            margin-top: 1em;
+        }
+    }
+
+    figcaption {
+        font-size: 0.9em;
+        padding: inherit;
+        padding-bottom: 0;
+    }
+
+    #{headings()} {
+        color: $color-default;
+    }
+
+
+    nav {
+        display: none !important;
+
+        flex: 0 0 100%;
+        margin: 3em 0;
+    }
+
+    .prev {
+        float: left;
+    }
+
+    .next {
+        float: right;
+    }
+}

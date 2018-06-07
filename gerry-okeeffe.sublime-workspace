@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"place",
+				"placeHitAreas"
+			],
+			[
+				"ready",
+				"readyStates"
+			],
+			[
+				"plac",
+				"placeHitAreas"
+			],
+			[
+				"flo",
+				"floatNav"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"plah",
+				"placeHitAreas"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"scroll",
+				"scrollable"
+			],
+			[
+				"Sce",
+				"SceneManager"
+			],
+			[
+				"length",
+				"lengthSq"
+			],
+			[
+				"get",
+				"getInverse"
+			],
+			[
+				"appl",
+				"applyTransform"
+			],
+			[
+				"updat",
+				"updateTransform"
+			],
+			[
+				"curee",
+				"currentSceneKey"
+			],
+			[
+				"retr",
+				"returns	@returns"
+			],
+			[
+				"ret",
+				"returns	@returns"
+			],
+			[
+				"start",
+				"startCorrectDirty"
+			],
+			[
+				"stop",
+				"stopTransformCorrection"
+			],
+			[
+				"crtr",
+				"correctTransform"
+			],
+			[
+				"ti",
+				"tile"
+			],
+			[
+				"design",
+				"designScene"
+			],
+			[
+				"correct",
+				"correctTransform"
+			],
+			[
+				"regiS",
+				"regionAssignment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"gstat",
+				"Git: Status"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"('/bin/bash', '-l', '-c', 'echo \"__SUBL_PATH__${PATH}__SUBL_PATH__\"')",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eoghan.okeeffe/Dropbox/gerry-okeeffe"
+	],
+	"file_history":
+	[
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime/development/prototypes/material-preview-improve/index.html",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime/development/prototypes/README.md",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/bounds-correction/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/pointer-events/styles/index.scss",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/directive.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/directive.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/blackout.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/visualiser-3D.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/pointer-events/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/design-mesh.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/tile.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/plane-mesh.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/pointer-events/scripts/directive.js",
+		"/Users/eoghan.okeeffe/Sites/+rehab/politicons/hackweek-politicons-app/politicons/platforms/android/project.properties",
+		"/Users/eoghan.okeeffe/Sites/+rehab/politicons/hackweek-politicons-app/politicons/messenger-plugin/src/ios/HelloCordova.xcodeproj/project.pbxproj",
+		"/Users/eoghan.okeeffe/Sites/+rehab/politicons/hackweek-politicons-app/.git/MERGE_MSG",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/template.html",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/maps/scripts/template.html",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/maps/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/styles/index.scss",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/maps/styles/index.scss",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs/simple-frame.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/edit/ui-controller.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/analyse/ui-controller.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/edit/ui-template.html",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/maps/components/edit-panel/styles/index.scss",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/.git/MERGE_MSG",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/styles/moments-edit-product.scss",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs/original.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/artwork.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/scene-manager-directive.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/feature-detection/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/scene-manager.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/templates/template.html",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/view-manager-3D.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/edit/tile-gesture-transformer.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/uv-transform.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime/development/prototypes/moments-superkaleider/shaders/matrix-transform.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/components/photo-analysis/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/edit/matrix2d.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/three-2d-transforms/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/scene.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/primitives-square.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/original.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/art-stripes.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/TROUBLESHOOTING.md",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/scene.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-product-visualiser/scripts/rotate-control.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/README.md",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/README.md",
+		"/Users/eoghan.okeeffe/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/components/photo-analysis/scripts/mock-parse.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/squiggles.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs/gradient-data.json",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs/squiggles.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/shaders/diamonds.glsl",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/assets/moments/photoshop-exporters/squiggles-design-exporter.jsx",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/assets/moments/photoshop-exporters/triangles-design-exporter.jsx",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/generator-moments-grid/scripts/designs/gradient.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/assets/moments/photoshop-exporters/gradient-design-exporter.jsx",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/static/app/data/moments/mock-template-def.svg",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/standalone/wrapper/tests/mock-generators.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/third_party/js/modernizr/feature-detects/pointerlock-api.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/node_modules/protractor/lib/driverProviders/mock.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/node_modules/browserify/node_modules/browser-resolve/test/modules-coffee.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/node_modules/browserify/node_modules/JSONStream/test/multiple_objects.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/Makefile",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components/three-2d-transforms/scripts/index.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/generators/moments/scripts/controller.js",
+		"/Users/eoghan.okeeffe/Sites/+google/minime/notes.md",
+		"/Users/eoghan.okeeffe/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/eoghan.okeeffe/.bash_profile",
+		"/Users/eoghan.okeeffe/Google Drive/Demos/snippets/momentum-scroll-interpretation.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/",
+			"/Users/eoghan.okeeffe/Sites/+google/minime/minime-standalone/app/frontend/app/components"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hitArea",
+			"h",
+			"hitAreas",
+			"placeHitAreas",
+			"vimeoAPI",
+			"hidden",
+			"i",
+			"state: '",
+			"readyStages",
+			"checkState",
+			"box-shadow",
+			"$nav",
+			"amp;",
+			"\n",
+			".",
+			"{",
+			"jpg",
+			"1.1",
+			": scale(",
+			",",
+			"\\\"",
+			":",
+			"baseImg",
+			"baseImage",
+			"px",
+			";",
+			"-1",
+			";\n  ",
+			"border",
+			"transform",
+			"scale(",
+			"scale(0.8)",
+			" 1.5 ",
+			" 1.1 ",
+			" 0.8 ",
+			"index",
+			"add",
+			"addSubMeshes",
+			"geometry",
+			"design",
+			"parentt",
+			"RenderTarget",
+			"renderTarget",
+			"RenderTarget",
+			"renderTarget",
+			"RenderTarget",
+			"renderTarget",
+			"rendertarge",
+			"rendercasea",
+			"tmpRenderTarget",
+			"renderTargetCache",
+			"teamviewer|w",
+			" ",
+			"<",
+			"pointer-events/scripts",
+			"generator-product-visualiser/styles",
+			"findParent",
+			"Modernizr.pointerevents",
+			"\n",
+			"('",
+			"setdisplaym",
+			"setdisplaymode",
+			"pointer-event",
+			"pointer-events",
+			"pointerevents",
+			"elem",
+			"pointer",
+			"blackout",
+			"Blackout",
+			"edit-panel__scroll",
+			"edit-panel__",
+			"pointer",
+			"scroll",
+			"show",
+			"e.target",
+			".top",
+			"modernizr.webgl",
+			"[ canvas ]",
+			"designs",
+			" * ",
+			"5",
+			"4",
+			"d1",
+			"b1",
+			"c1",
+			"a1",
+			"3",
+			"2",
+			"1",
+			"*",
+			"0",
+			"b",
+			"a",
+			"0",
+			" + ",
+			" * ",
+			";\n    var ",
+			"  =",
+			"multiply",
+			" = 0",
+			"] = values[",
+			"] = this",
+			" = this",
+			"0 = ",
+			" = ",
+			"photo",
+			"<<",
+			">>",
+			"uvTransform(vUv, rotation, aspectRatioCorrectionX, aspectRatioCorrectionY, uvTransformMatrix)",
+			"a_x_uvTransform(",
+			"a_x_uvTransform(vUv, rotation, aspectRatioCorrectionX, aspectRatioCorrectionY, uvTransformMatrix);",
+			" : output",
+			"inverse.getInverse(output)",
+			"vScale",
+			"uScale",
+			"Position",
+			"m[",
+			"ghfjgjhh",
+			", con",
+			",",
+			";",
+			"= ",
+			"requestDesignRender",
+			"renderdesign",
+			"updateTransform",
+			"=",
+			"setRotationAndScale",
+			"updateTransform"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "gerry-okeeffe.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mock-a",
+				"minime-standalone/app/frontend/app/generators/moments/components/photo-analysis/scripts/mock-parse.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 386.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

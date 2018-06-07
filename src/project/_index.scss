@@ -1,0 +1,87 @@
+@import '../utils/colors';
+@import '../utils/spacing';
+@import '../utils/animation';
+
+@import '../project-link/index';
+
+.project {
+    /* Fade in */
+    transition: transform $time-view-fade $ease-long-out,
+        background-color $time-background-fade-in $ease-long-in $time-fade,
+        opacity $time-box-fade $ease-long-in;
+
+    &.hide {
+        background-color: $color-default;
+        transform: translateZ(-1.3em);
+        opacity: 0;
+
+        /* Fade out */
+        transition: transform $time-view-fade $ease-long-in,
+            background-color $time-background-fade-out $ease-long-out,
+            opacity $time-box-fade $ease-long-out
+                ($time-view-fade - $time-box-fade);
+
+        .project-title,
+        dl,
+        section {
+            opacity: 0;
+        }
+
+        .project-title {
+            transition-delay: $time-box-fade;
+        }
+
+        dl,
+        section {
+            transition-delay: 0ms;
+        }
+    }
+
+    .project-title,
+    dl,
+    section {
+        transition: opacity $time-box-fade $ease-long-out;
+    }
+
+    .project-title {
+        transition-delay: $time-fade;
+    }
+
+    dl,
+    section {
+        transition-delay: $time-background-fade-in - $time-quick;
+    }
+
+
+    figure {
+        transition: background-color 500ms $ease-long-out,
+            height $time-view-fade ease-in-out,
+            transform $time-view-fade ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: rgba($color-neutral, 0.25);
+        }
+
+        &.full {
+            width: 100vh;
+            height: 100vh;
+            background-color: $color-neutral;
+        }
+    }
+
+
+    nav {
+        min-height: 2em;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        bottom: 2em;
+    }
+
+    .next {
+        right: 0;
+    }
+}
