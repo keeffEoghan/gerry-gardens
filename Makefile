@@ -26,7 +26,6 @@ fe-setup: build
 # than the modification date of `node_modules`, `touch $@` updates the
 # modification date of `node_modules` when done.
 node_modules: package.json
-	npm cache clean;
 	npm install;
 	touch $@
 

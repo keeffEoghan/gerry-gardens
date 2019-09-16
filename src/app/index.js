@@ -148,7 +148,7 @@ export default Router.extend({
         this.activeView = view;
 
         if(hid) {
-            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = document.body.scrollTop = 0;
         }
 
         return view.show()
