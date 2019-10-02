@@ -1,8 +1,8 @@
 # Gerry O'Keeffe Gardens
 
-## Dropbox and Synching
+## Google Drive and Synching
 
-This setup uses Dropbox as a simple repository. To ensure that Dropbox *doesn't get overwhelmed* with unnecessary files, ensure that any build/utility/etc. files that aren't needed for running the site [are not synched to Dropbox](http://www.dropboxwiki.com/tips-and-tricks/exclude-folders-from-syncing).
+This site's _DigitalOcean_ droplet server setup uses _Google Drive_ and _rsync_ as a simple repository for the CMS and backups.
 
 
 ---
